@@ -26,7 +26,7 @@ export const GifExpertApp = () => {
             <h1>GifExpertApp</h1>
 
             {/* Category Input */}
-            <AddCategory onNewCategory={onAddCategory} />
+            <AddCategory inputProps={{ "data-testid": "addCategory" }} onNewCategory={onAddCategory} />
 
             {/* <ol id="categoriesList"> */}
             {
